@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/hingeipv4",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hinge digests and ipv4 fingerprints for local integrity checks.",
+  "bin": {
+    "hingeipv4": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/hingeipv4.git"
+  },
+  "homepage": "https://theworker02.github.io/hingeipv4/",
+  "keywords": [
+    "hinge",
+    "ipv4",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
